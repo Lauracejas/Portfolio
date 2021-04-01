@@ -1,0 +1,130 @@
+body{
+   background-color: lightslategrey;
+}
+.header {
+    border-radius: 4px 4px 4px 4px;
+}
+.btn {
+    background-color: lightseagreen;
+    color:rgb(54, 53, 53)
+}
+
+h1 {
+    font-size: 20px;
+    padding-top: 5px;
+    color: lightseagreen;    
+}
+
+h2 {
+font-size: 80px;
+color: rgb(54, 53, 53);
+}
+
+ nav ul li {
+    display: inline-block;
+    /* margin-left: 25px; */
+    list-style-type: none;
+    letter-spacing: 1px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px;
+    align-content: center;
+  flex-wrap: wrap;
+} 
+
+nav {
+margin-right: 20px;
+float: right;    
+font-size: 20px; 
+flex-direction: row;
+display: flex;
+justify-content:space-around;
+align-content: center;
+flex-wrap: wrap;
+font-size: 15px;
+
+
+margin:0px;
+padding: 20px;
+/* box-shadow: inset 5px 5px 25px 5px black, 5px 5px 12px 2px black; */
+/* background-image: radial-gradient(#157094, #51534e 500px); */
+}
+
+.container-fluid{
+    margin: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.row {
+align-content: center;
+flex-direction: row;
+display: flex;
+justify-content:space-around;
+align-content: center;
+flex-wrap: wrap;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+.card {
+    justify-content:space-around;
+    margin: 15px;
+}
+.photo{
+    margin: auto; 
+}
+
+.photo {
+border: 8px solid lightseagreen;
+ border-radius: 150px;
+ display: block;  
+width: 80%;  
+}
+
+.card-body{
+    background-color: lightgray;
+}
+p {
+  
+    padding-right: 20px;
+    font-size: 28px;
+}
+
+/* Projects section */
+#work {
+   justify-content: space-between;
+   margin-top: 20px;
+}
+
+#each-project {   
+    background: url(/assets/photo.jpg);
+}
+
+.link {
+    margin: 10px
+}
+
+.cardImages {
+    padding-top: 10px;
+}
+
+.card-tech {
+    font-size: small;
+}
+
+.card-title {
+color: lightseagreen;
+}
+
+#me {
+color:rgb(54, 53, 53);
+font-size: 25px;
+margin-left: 25px;
+}
+
+li:hover {
+    transform: scale(1.1);
+    color:lightseagreen
+}
